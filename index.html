@@ -7,12 +7,13 @@
     <title>Samuel Ribeiro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" type="image/jpg" href="/src/assets/images/icons-s-40.png"/>
+    <link rel="stylesheet" href="src/style/styles.css">
 </head>
 
 <body>
     <header class="flex px-10 py-4 justify-between items-center border-b-2 border-gray-700  w-full bg-black fixed ">
 
-        <div class="flex gap-3">
+        <div id="logo-s" class="flex gap-3">
             <p> <img class="pt-2" src="/src/assets/images/icons-s-40.png" alt=""> </p>
             <a href="#home"><button
                     class="text-white text-4xl font-bold font-['Sora'] capitalize leading-normal ">Samuel</button></a>
@@ -20,27 +21,27 @@
         </div>
 
         <nav class=" justify-around gap-8 inline-flex h-6">
-            <a href="#skills">
+            <a id="nav" href="#skills">
                 <button class="text-white text-xl font-bold font-['Sora'] capitalize leading-normal">Skills</button>
             </a>
-            <a href="#experience">
+            <a id="nav" href="#experience">
                 <button
                     class="text-white text-xl font-bold font-['Sora'] capitalize leading-normal ">Experciences</button>
             </a>
-            <a href="#certificates">
+            <a id="nav" href="#certificates">
                 <button
                     class="text-white text-xl font-bold font-['Sora'] capitalize leading-normal ">Certificates</button>
             </a>
-            <a href="#projects"><button
+            <a id="nav" href="#projects"><button
                     class="text-white text-xl font-bold font-['Sora'] capitalize leading-normal ">Project</button>
             </a>
-            <a href="#contact">
+            <a id="nav" href="#contact">
                 <button class="text-white text-xl font-bold font-['Sora'] capitalize leading-normal ">Contact
                     Me</button>
             </a>
         </nav>
 
-        <button class=" flex bg-black text-white py-2 px-5 gap-2 border hover:translate-x-1 ">
+        <button id="button-resume" class=" flex bg-black text-white py-2 px-5 gap-2 border">
             <p>Resume</p>
             <img src="/src/assets/images/download.svg" alt="">
         </button>
@@ -103,7 +104,7 @@
 
             </div>
 
-            <div class="pt-6">
+            <div id="img-center" class="pt-6">
                 <img src="/src/assets/images/Banner.svg" alt="">
             </div>
 
